@@ -1,0 +1,16 @@
+//19000502 - W.A.D.Gunasekara
+
+object Q4 extends App {
+  def find(n:Int): Unit = {
+    if (n%2 == 0) {
+      println("even")
+    }
+    else{
+      println("odd")
+    }
+  }
+  find(3)
+  find(6)
+}
+ 
+ 
