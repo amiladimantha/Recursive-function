@@ -1,0 +1,17 @@
+//19000502 - W.A.D.Gunasekara
+
+object Q5 extends App {
+
+  def add(n:Int):Int={
+    if(n>1 && n%2==0){
+      n + add(n-2)
+    }
+    else if (n>1 && n%2==1){
+      add(n-1)
+    }
+    else{
+      0
+    }
+  }
+  print(add(25))
+}
